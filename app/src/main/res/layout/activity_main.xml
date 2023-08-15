@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fdfefe">
+
+
+    <TextView
+        android:id="@+id/Exchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+       android:layout_marginLeft="160dp"
+        android:text="@string/exchnage"
+        android:textColor="#172b54"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView  android:id="@+id/Imagelist"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/baseline_format_list_bulleted_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/Exchange"
+      android:layout_marginTop="40dp"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

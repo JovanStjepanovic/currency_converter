@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exchange App</string>
+    <string name="exchnage">Exchnage</string>
+    <string name="convert">Convert</string>
+    <string name="convert_to">Convert to</string>
+    <string name="currency_list">Currency list</string>
+</resources>
